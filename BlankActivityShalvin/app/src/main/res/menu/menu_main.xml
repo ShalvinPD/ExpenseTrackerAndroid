@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.blogspot.shalvinpd.blankactivityshalvin.MainActivity" >
+    <item android:id="@+id/expense"
+        android:title="Expense"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/expensetrack"
+        android:title="Expense Track"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

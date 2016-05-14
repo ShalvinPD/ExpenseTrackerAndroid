@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="Expense">
+        <item>Uber</item>
+        <item>Taxi</item>
+        <item>Shirt</item>
+        <item>Pen Drive</item>
+
+     </string-array>
+</resources>

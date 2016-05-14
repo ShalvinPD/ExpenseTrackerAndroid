@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.shalvinpd.blankactivityshalvin.ExpenseMaster">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:text="Expense Name"
+        android:textSize="@dimen/text_size"
+        android:id="@+id/textView" />
+    <Spinner
+        android:id="@+id/spnExpense"
+        android:layout_width="@dimen/text_width"
+        android:textSize="@dimen/text_size"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/text" />
+        <EditText
+            android:layout_width="@dimen/text_width"
+            android:textSize="@dimen/text_size"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/textVi" />
+
+        <DatePicker
+            android:layout_width="@dimen/text_width"
+            android:textSize="@dimen/text_size"
+            android:layout_height="150sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:text="Description"
+            android:id="@+id/textVie" />
+
+        <EditText
+            android:id="@+id/txtExpense"
+            android:layout_width="200dp"
+            android:textSize="@dimen/text_size"
+
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="54sp"
+        android:text="Save"
+        android:onClick="btnDClick"/>
+</LinearLayout>
